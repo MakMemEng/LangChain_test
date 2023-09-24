@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-test"
+version = "0.1.0"
+description = ""
+authors = ["MakMemEng <yatani.mems4568@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gensim = "^4.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
